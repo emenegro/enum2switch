@@ -7,16 +7,16 @@ in a service that uses the selected text as input and copies the output in the c
 Example
 -------
 
-	typedef NS_ENUM(NSUInteger, WeekDay) {
+`typedef NS_ENUM(NSUInteger, WeekDay) {
 
-	    WeekDayMonday, 
-	    WeekDayTuesday, 
-	    WeekDayWednesday, 
-	    WeekDayThursday, 
-	    WeekDayFriday, 
-	    WeekDaySaturday,
-	    WeekDaySunday
-	};
+    WeekDayMonday, 
+    WeekDayTuesday, 
+    WeekDayWednesday, 
+    WeekDayThursday, 
+    WeekDayFriday, 
+    WeekDaySaturday,
+    WeekDaySunday
+};`
 
 
 	WeekDay expression = <#value#>;
@@ -50,29 +50,28 @@ Example
 Supported enum format
 ---------------------
 
-	enum {
-		
-	}
+`enum {
+	
+}`
+
+enum {
+	
+} Name;
 
 
-	enum {
-		
-	} Name;
+enum Name {
+	
+};
 
 
-	enum Name {
-		
-	};
+enum Name : Type {
+	
+};
 
 
-	enum Name : Type {
-		
-	};
-
-
-	NS_ENUM(Type, Name) {
-		
-	};
+NS_ENUM(Type, Name) {
+	
+};
 
 Installation
 ------------
@@ -84,4 +83,4 @@ Installation
 OS X Service
 ------------
 
-Download a fully functional service from [here](https://www.dropbox.com/sh/sx3e0ki4afb0e8w/7fRu8MZXNS). Double click on it to install and it will be accessible from the Services contextual menu, in every app. The generated switch will be copied in the clipboard.
+Download a fully functional service from [here](https://www.dropbox.com/s/m9z0z72n2g5pvmt/Enum2Switch.zip). Double click on it to install and it will be accessible from the Services contextual menu, in every app. The generated switch will be copied in the clipboard.
