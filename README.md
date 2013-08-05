@@ -18,6 +18,7 @@ Example
 	    WeekDaySunday
 	};
 
+
 	WeekDay expression = <#value#>;
 	switch (expression) {
 
@@ -53,17 +54,21 @@ Supported enum format
 		
 	}
 
+
 	enum {
 		
 	} Name;
+
 
 	enum Name {
 		
 	};
 
+
 	enum Name : Type {
 		
 	};
+
 
 	NS_ENUM(Type, Name) {
 		
@@ -72,11 +77,11 @@ Supported enum format
 Installation
 ------------
 
-1.- Open the Xcode project and build.
-2.- Open 'Products' folder, right click on 'Enum2Switch.action' > "Show in Finder".
-3.- Double click to install in Automator and use as desired.
+1. Open the Xcode project and build.
+2. Open 'Products' folder, right click on 'Enum2Switch.action' > "Show in Finder".
+3. Double click to install in Automator and use as desired.
 
 OS X Service
 ------------
 
-Download a fully functional service from here. Double click on it to install and it will be accessible from the Services contextual menu, in every app. The generated switch will be copied in the clipboard.
+Download a fully functional service from [here](https://www.dropbox.com/sh/sx3e0ki4afb0e8w/7fRu8MZXNS). Double click on it to install and it will be accessible from the Services contextual menu, in every app. The generated switch will be copied in the clipboard.
