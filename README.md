@@ -7,16 +7,16 @@ in a service that uses the selected text as input and copies the output in the c
 Example
 -------
 
-`typedef NS_ENUM(NSUInteger, WeekDay) {
+	typedef NS_ENUM(NSUInteger, WeekDay) {
 
-    WeekDayMonday, 
-    WeekDayTuesday, 
-    WeekDayWednesday, 
-    WeekDayThursday, 
-    WeekDayFriday, 
-    WeekDaySaturday,
-    WeekDaySunday
-};`
+	    WeekDayMonday, 
+	    WeekDayTuesday, 
+	    WeekDayWednesday, 
+	    WeekDayThursday, 
+	    WeekDayFriday, 
+	    WeekDaySaturday,
+	    WeekDaySunday
+	};
 
 
 	WeekDay expression = <#value#>;
@@ -50,28 +50,20 @@ Example
 Supported enum format
 ---------------------
 
-`enum {
-	
-}`
+	enum {
+	}
 
-enum {
-	
-} Name;
+	enum {
+	} Name;
 
+	enum Name {
+	};
 
-enum Name {
-	
-};
+	enum Name : Type {
+	};
 
-
-enum Name : Type {
-	
-};
-
-
-NS_ENUM(Type, Name) {
-	
-};
+	NS_ENUM(Type, Name) {
+	};
 
 Installation
 ------------
