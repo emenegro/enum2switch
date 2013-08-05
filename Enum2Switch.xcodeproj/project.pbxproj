@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57EE801D17ABCC4500EC73BB /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EE801C17ABCC4500EC73BB /* Automator.framework */; };
+		57EE801F17ABCC4500EC73BB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EE801E17ABCC4500EC73BB /* Cocoa.framework */; };
+		57EE802917ABCC4500EC73BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57EE802717ABCC4500EC73BB /* InfoPlist.strings */; };
+		57EE802C17ABCC4500EC73BB /* Enum2Switch.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EE802B17ABCC4500EC73BB /* Enum2Switch.m */; };
+		57EE802F17ABCC4500EC73BB /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57EE802D17ABCC4500EC73BB /* main.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57EE801917ABCC4500EC73BB /* Enum2Switch.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Enum2Switch.action; sourceTree = BUILT_PRODUCTS_DIR; };
+		57EE801C17ABCC4500EC73BB /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		57EE801E17ABCC4500EC73BB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		57EE802117ABCC4500EC73BB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		57EE802217ABCC4500EC73BB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		57EE802317ABCC4500EC73BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57EE802617ABCC4500EC73BB /* Enum2Switch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Enum2Switch-Info.plist"; sourceTree = "<group>"; };
+		57EE802817ABCC4500EC73BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57EE802A17ABCC4500EC73BB /* Enum2Switch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enum2Switch.h; sourceTree = "<group>"; };
+		57EE802B17ABCC4500EC73BB /* Enum2Switch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Enum2Switch.m; sourceTree = "<group>"; };
+		57EE802E17ABCC4500EC73BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/main.xib; sourceTree = "<group>"; };
+		57EE803017ABCC4500EC73BB /* Enum2Switch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enum2Switch-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57EE801517ABCC4500EC73BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EE801D17ABCC4500EC73BB /* Automator.framework in Frameworks */,
+				57EE801F17ABCC4500EC73BB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57EE800F17ABCC4500EC73BB = {
+			isa = PBXGroup;
+			children = (
+				57EE802417ABCC4500EC73BB /* Enum2Switch */,
+				57EE801B17ABCC4500EC73BB /* Frameworks */,
+				57EE801A17ABCC4500EC73BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57EE801A17ABCC4500EC73BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57EE801917ABCC4500EC73BB /* Enum2Switch.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57EE801B17ABCC4500EC73BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57EE801C17ABCC4500EC73BB /* Automator.framework */,
+				57EE801E17ABCC4500EC73BB /* Cocoa.framework */,
+				57EE802017ABCC4500EC73BB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57EE802017ABCC4500EC73BB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57EE802117ABCC4500EC73BB /* AppKit.framework */,
+				57EE802217ABCC4500EC73BB /* CoreData.framework */,
+				57EE802317ABCC4500EC73BB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		57EE802417ABCC4500EC73BB /* Enum2Switch */ = {
+			isa = PBXGroup;
+			children = (
+				57EE802A17ABCC4500EC73BB /* Enum2Switch.h */,
+				57EE802B17ABCC4500EC73BB /* Enum2Switch.m */,
+				57EE802D17ABCC4500EC73BB /* main.xib */,
+				57EE802517ABCC4500EC73BB /* Supporting Files */,
+			);
+			path = Enum2Switch;
+			sourceTree = "<group>";
+		};
+		57EE802517ABCC4500EC73BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57EE802617ABCC4500EC73BB /* Enum2Switch-Info.plist */,
+				57EE802717ABCC4500EC73BB /* InfoPlist.strings */,
+				57EE803017ABCC4500EC73BB /* Enum2Switch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57EE801817ABCC4500EC73BB /* Enum2Switch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57EE803317ABCC4500EC73BB /* Build configuration list for PBXNativeTarget "Enum2Switch" */;
+			buildPhases = (
+				57EE801417ABCC4500EC73BB /* Sources */,
+				57EE801517ABCC4500EC73BB /* Frameworks */,
+				57EE801617ABCC4500EC73BB /* Resources */,
+				57EE801717ABCC4500EC73BB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Enum2Switch;
+			productName = Enum2Switch;
+			productReference = 57EE801917ABCC4500EC73BB /* Enum2Switch.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57EE801017ABCC4500EC73BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mario Negro";
+			};
+			buildConfigurationList = 57EE801317ABCC4500EC73BB /* Build configuration list for PBXProject "Enum2Switch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57EE800F17ABCC4500EC73BB;
+			productRefGroup = 57EE801A17ABCC4500EC73BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57EE801817ABCC4500EC73BB /* Enum2Switch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57EE801617ABCC4500EC73BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EE802917ABCC4500EC73BB /* InfoPlist.strings in Resources */,
+				57EE802F17ABCC4500EC73BB /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57EE801717ABCC4500EC73BB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57EE801417ABCC4500EC73BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EE802C17ABCC4500EC73BB /* Enum2Switch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57EE802717ABCC4500EC73BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57EE802817ABCC4500EC73BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57EE802D17ABCC4500EC73BB /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57EE802E17ABCC4500EC73BB /* en */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57EE803117ABCC4500EC73BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		57EE803217ABCC4500EC73BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		57EE803417ABCC4500EC73BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enum2Switch/Enum2Switch-Prefix.pch";
+				INFOPLIST_FILE = "Enum2Switch/Enum2Switch-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		57EE803517ABCC4500EC73BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enum2Switch/Enum2Switch-Prefix.pch";
+				INFOPLIST_FILE = "Enum2Switch/Enum2Switch-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57EE801317ABCC4500EC73BB /* Build configuration list for PBXProject "Enum2Switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57EE803117ABCC4500EC73BB /* Debug */,
+				57EE803217ABCC4500EC73BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57EE803317ABCC4500EC73BB /* Build configuration list for PBXNativeTarget "Enum2Switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57EE803417ABCC4500EC73BB /* Debug */,
+				57EE803517ABCC4500EC73BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57EE801017ABCC4500EC73BB /* Project object */;
+}
