@@ -21,6 +21,11 @@ Example
 	};
 
 
+                    |
+                    |
+                   \ /
+
+
 	WeekDay expression = <#value#>;
 	switch (expression) {
 
@@ -71,5 +76,5 @@ Installation
 ------------
 
 1. Open the Xcode project and build.
-2. Open 'Products' folder, right click on 'Enum2Switch.action' > "Show in Finder".
+2. Open the `Products` folder, right click on `Enum2Switch.action` > `Show in Finder`.
 3. Double click to install in Automator and use as desired.
