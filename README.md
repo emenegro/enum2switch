@@ -21,11 +21,6 @@ Example
 	};
 
 
-                    |
-                    |
-                   \ /
-
-
 	WeekDay expression = <#value#>;
 	switch (expression) {
 
@@ -57,20 +52,20 @@ Example
 Supported enum format
 ---------------------
 
-	enum {
-	}
+> enum {
+ }
 
-	enum {
-	} Name;
+> enum {
+ } Name;
 
-	enum Name {
-	};
+> enum Name {
+ };
 
-	enum Name : Type {
-	};
+> enum Name : Type {
+ };
 
-	NS_ENUM(Type, Name) {
-	};
+> NS_ENUM(Type, Name) {
+ };
 
 Installation
 ------------
